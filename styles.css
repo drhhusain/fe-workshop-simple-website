@@ -1,0 +1,361 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ------------------ NAV BAR ------------------ */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4dacdc;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0px 250px 0px 250px;
+}
+
+nav > p {
+  display: block;
+  background-color: white;
+  color: #0fa8e5;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding: 12px;
+  font-size: 48px;
+  box-shadow: 14px 15px #1fa9e1;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  height: 26px;
+  justify-content: space-evenly;
+}
+
+.layer {
+  background-color: white;
+  border-radius: 5px;
+  width: 30px;
+  height: 4px;
+}
+
+/* ------------------ HERO SECTION ------------------  */
+#hero {
+  background-color: #4dacdc;
+  color: white;
+  text-align: end;
+  height: 550px;
+  margin: 0 auto;
+  padding: 80px 250px 0px 250px;
+  overflow: hidden;
+}
+
+#hero h1 {
+  font-size: 71px;
+  font-weight: 500;
+}
+
+#hero p {
+  font-size: 32px;
+  font-weight: lighter;
+  opacity: 0.9;
+  letter-spacing: 0.03ch;
+}
+
+#hero p strong {
+  font-weight: 500;
+}
+
+#hero button {
+  margin-top: 41px;
+  padding: 19px 30px;
+  background-color: #4dacdc;
+  border: 2px solid white;
+  color: inherit;
+  font-weight: lighter;
+}
+
+#hero button img {
+  margin-left: 10px;
+}
+
+.left-align {
+  width: fit-content;
+  text-align: left;
+  position: relative;
+  top: -36px;
+  left: 71px;
+}
+
+/* ------------------ SAY HELLO SECTION ------------------  */
+#say-hello {
+  background-color: #f4f4f4;
+  color: black;
+  height: 650px;
+  margin: 0 auto;
+  padding: 150px 0px 0px 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+#say-hello h2 {
+  font-size: 38px;
+  font-weight: lighter;
+  opacity: 0.8;
+  padding-bottom: 26px;
+}
+
+#say-hello p {
+  font-size: 16px;
+  font-weight: lighter;
+  width: 555px;
+  line-height: 1.6;
+  margin-bottom: 21px;
+  letter-spacing: 0.03ch;
+}
+
+.blockquote {
+  border-left: 6px solid #4dacdc;
+  padding-left: 19px;
+}
+
+#say-hello button {
+  margin-top: 40px;
+  padding: 19px 33px;
+  background-color: #f4f4f4;
+  border: 2px solid #15ae8f;
+  color: #15ae8f;
+  font-weight: lighter;
+}
+
+#say-hello button img {
+  filter: invert(1) grayscale(100%);
+  margin-left: 10px;
+}
+
+/* ------------------ GET A DOG SECTION ------------------  */
+#get-a-dog {
+  background-color: #ffffff;
+  color: black;
+  height: 652px;
+  margin: 0 auto;
+  padding: 100px 250px 0px 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+#get-a-dog h2 {
+  font-size: 38px;
+  font-weight: lighter;
+  opacity: 0.8;
+  padding-bottom: 26px;
+}
+
+#get-a-dog p {
+  font-size: 16px;
+  font-weight: lighter;
+  width: 395px;
+  line-height: 1.6;
+  margin-bottom: 27px;
+  letter-spacing: 0.03ch;
+}
+
+#get-a-dog p:first-of-type {
+  font-weight: 500;
+}
+
+#get-a-dog button {
+  margin-top: 23px;
+  padding: 18px 31px;
+  background-color: #ffffff;
+  border: 2px solid #e94c89;
+  border-bottom: 3px solid #e94c89;
+  color: #e94c89;
+  font-weight: lighter;
+}
+
+#get-a-dog button img {
+  filter: invert(1) grayscale(100%);
+  margin-left: 10px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+}
+
+.blue {
+  top: 185px;
+  left: 196px;
+}
+
+.orange {
+  top: 388px;
+  left: 90px;
+}
+
+.yellow {
+  top: 350px;
+  left: 544px;
+}
+
+.yellow2 {
+  top: 307px;
+  left: -30px;
+}
+
+.green {
+  top: 400px;
+  left: 730px;
+}
+
+.red {
+  top: 447px;
+  left: 680px;
+}
+
+/* ------------------ BUY ME A COFFEE SECTION ------------------  */
+#buy-me-coffee {
+  background-color: #10ac8c;
+  color: black;
+  height: 326px;
+  margin: 0 auto;
+  padding: 93px 250px 0px 250px;
+  text-align: center;
+}
+
+#buy-me-coffee h2 {
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 400;
+  padding-bottom: 26px;
+}
+
+#buy-me-coffee button {
+  padding: 19px 31px;
+  background-color: #10ac8c;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+#buy-me-coffee img {
+  margin-left: 10px;
+}
+
+/* ------------------ SOCIALS SECTION ------------------  */
+#socials {
+  background-color: #f4f4f4;
+  color: black;
+  height: 650px;
+  margin: 0 auto;
+  padding: 93px 250px 0px 250px;
+}
+
+.sites-container {
+  margin: 149px auto 67px;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  height: 43px;
+}
+
+.input-container input {
+  padding: 0px 20px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  width: 168px;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #ebebeb;
+}
+
+.mail-icon {
+  position: relative;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  padding: 10px 20px 10px 10px;
+  width: 50px;
+}
+
+.mail-icon img {
+  filter: invert(1) grayscale(100%);
+}
+
+.mail-icon::before {
+  display: block;
+  content: ""; /* Pseudo-element content */
+  position: absolute;
+  left: -5px;
+  top: 50%; /* Move it to the vertical middle */
+  transform: translateY(-50%); /* Align it exactly in the middle */
+
+  width: 1px; /* Border thickness */
+  height: 15px; /* The desired height of the border */
+  background-color: #ebebeb; /* Border color */
+}
+
+/* ------------------ SOCIALS SECTION ------------------  */
+#footer {
+  background-color: #ffffff;
+  color: black;
+  height: 100px;
+  padding: 40px;
+}
+
+#footer p {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: smaller;
+}
+
+#footer p span {
+  color: blue;
+}
+
+/* ------------------ SOCIALS SECTION ------------------  */
+#scroll-to-top {
+  width: 40px;
+  height: 40px;
+  /* padding: 20px; */
+  background-color: #d4d4d4;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+}
+
+#scroll-to-top img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
