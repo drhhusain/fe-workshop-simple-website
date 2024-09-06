@@ -3,4 +3,4 @@ This is the first assignment for FE Workshop, where we need to just use the HTML
 
 The final website should look like this
 
-![Wxpected Website Output](https://github.com/drhhusain/fe-workshop-simple-website/blob/main/desktop.png?raw=true)
+![Expected Website Output](https://github.com/drhhusain/fe-workshop-simple-website/blob/main/desktop.png?raw=true)
